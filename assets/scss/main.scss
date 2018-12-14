@@ -22,3 +22,13 @@
 span.username {
     display: none;
 }
+
+.logo {
+    margin: 0;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}

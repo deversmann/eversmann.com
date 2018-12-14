@@ -5,7 +5,7 @@ description   : "My place for stuff and things."
 keywords      : "Damien, Eversmann, Red Hat, DevOps, Automation"
 url           : http://www.eversmann.com # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
-cover         : "" # image uri like logo/cover image for site seo
+cover         : "/assets/images/logo.png" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-XXXXX-XX
 twitter_username  : "neimad"
