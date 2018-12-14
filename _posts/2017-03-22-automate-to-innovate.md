@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Automate to Innovate
+description:
+comments: false
+keywords:
 ---
 
 Had a great meeting today with Oregon State Data Center.  They unveiled to us their plans to fully automate the provisioning and deployment of all their Linux workloads.  It’s still in the development phases but it is an amazing accomplishment.  Bravo and kudos to them.  They are positioned to be able to service their constituents in the time frame of hours instead of days or weeks.
