@@ -6,3 +6,19 @@
 
 @import "layout";
 @import "syntax-highlighting";
+
+/**
+ * Icons
+ */
+
+ .svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: #{$medium-gray-color};
+    vertical-align: text-top;
+}
+
+span.username {
+    display: none;
+}
