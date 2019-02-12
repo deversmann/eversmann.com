@@ -3,7 +3,7 @@ title_left    : "Damien"
 title_right   : "Eversmann" # default: ""
 description   : "My place for stuff and things."
 keywords      : "Damien, Eversmann, Red Hat, DevOps, Automation"
-url           : www.eversmann.com # site url
+url           : https://www.eversmann.com # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "/assets/images/logo.png" # image uri like logo/cover image for site seo
 
