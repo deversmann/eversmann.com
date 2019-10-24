@@ -5,6 +5,18 @@ description:
 comments: false
 keywords:
 ---
+
+About a year ago (2018-10-26), an associate of mine published a really good blog post about automation and job security.  It was one of my favorite posts on the subject.  I discovered recently that his blog had disappeared, so I'm going to repost it here for now.
+
+* * * * *
+
+Settle down Jerry… Automation isn’t Taking your Job
+===================================================
+
+by Bill Hirsch
+--------------
+
+
 <p>I have encountered reluctance among my customers to automate some of the everyday operations and development tasks
     that we’ve all been doing for years in information technology roles.  Things like, building a new VM, deploying
     code, installing software, patching, adding VLANs, etc.  You know, the typical stuff.  At first, I didn’t take the
