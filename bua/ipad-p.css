@@ -1,0 +1,9 @@
+#page {
+	width: 768px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#main-wrap {
+	height:1004px;
+	width:468px;
+}

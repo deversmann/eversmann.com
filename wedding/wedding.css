@@ -1,0 +1,43 @@
+body
+
+	{ background: #cccccc; color: #cc0033; font-family: sans-serif }
+
+.text
+
+	{ background: #ffffff; color: #cc0033; font-family: sans-serif }
+
+.main
+
+	{ background: #ffffff; color: #cc0033; text-align: center; font-family: sans-serif }
+
+.footnote
+
+	{ background: #ffffff; color: #cc0033; text-align: center; font-family: sans-serif; font-size: 10pt }
+
+.tab
+
+	{ background: #cc0033; color: #ffffff; text-align: center; font-family: sans-serif }
+
+.selTab
+
+	{ color: #cc0033; text-align: center; font-family: sans-serif }
+
+.invitation
+
+	{ color: #cc0033; font-family: Monotype Corsiva, serif; font-size: 18pt }
+
+td.head
+
+	{ color: #cc0033; text-align: center; font-family: sans-serif; font-weight: 900 }
+
+td.list
+
+	{ color: #cc0033; text-align: center; font-family: sans-serif }
+
+.trail
+
+	{ color: #cc0033; font-family: sans-serif; font-size: 10pt }
+
+.pageLinks
+
+	{ color: #cc0033; text-align: center; font-family: sans-serif; font-size: 10pt }

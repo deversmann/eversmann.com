@@ -1,0 +1,99 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+#leftcol {
+	float:left;
+	width: 20%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid black;
+}
+#rightcol {
+	float: right;
+	width: 80%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.scroller, .wrapper {
+	margin:0;
+	padding:0;
+}
+.topbar {
+	height: 32px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cdd5df), color-stop(3%, #b0bccd), color-stop(50%, #889bb3), color-stop(51%, #8195af), color-stop(97%, #6d84a2), to(#2d3642));
+	margin-bottom: 13px;
+}
+.topbar .title {
+	line-height: 32px;
+	height: 32px;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #FFF;
+	text-shadow: rgba(0,0,0,0.6) 0 -1px 0;
+}
+div.c2 {width:50%; float:right;}
+div.c1 {width:50%; float:left;}
+
+span.ynx {
+	margin-right: 5px;
+}
+.ynx input[type="radio"] {
+	-webkit-appearance: none;
+	border: 0;
+	width: 27px;
+	height: 27px;
+	z-index: 0;
+	position: static;
+	left: auto;
+	margin: auto;
+	-webkit-border-radius: 0;
+	background: url('ynna.png');
+}
+
+.ynx input[type="radio"]:first-child {
+	border-right: 1px solid #6d7e91;
+	border-left: 1px solid #6d7e91;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	margin-left: -4px;
+}
+
+.ynx input[type="radio"]:last-child {
+	border-right: 1px solid #6d7e91;
+	border-left: 1px solid #6d7e91;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	margin-right: -4px;
+}
+
+.ynx input[value="y"] {
+}
+
+.ynx input[value="n"] {
+	background-position-x: -27px;
+}
+
+.ynx input[value="x"] {
+	background-position-x: -54px;
+}
+
+.ynx input[value="y"]:checked {
+	background-position-y: 27px;
+}
+
+.ynx input[value="n"]:checked {
+	background-position-x: -27px;
+	background-position-y: 27px;
+}
+
+.ynx input[value="x"]:checked {
+	background-position-x: -54px;
+	background-position-y: 27px;
+}

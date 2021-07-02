@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>iPhone GPS Test</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+        <style type="text/css" media="screen">@import "jqtouch/jqtouch.min.css";</style>
+        <style type="text/css" media="screen">@import "themes/apple/theme.min.css";</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="jqtouch/jqtouch.min.js" type="application/x-javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            var jQT = new $.jQTouch({
+                //icon: 'jqtouch.png',
+                addGlossToIcon: false,
+                //startupScreen: 'jqt_startup.png',
+                statusBar: 'black',
+                preloadImages: [
+                    'themes/jqt/img/back_button.png',
+                    'themes/jqt/img/back_button_clicked.png',
+                    'themes/jqt/img/button_clicked.png',
+                    'themes/jqt/img/grayButton.png',
+                    'themes/jqt/img/whiteButton.png',
+                    'themes/jqt/img/loading.gif'
+                    ]
+            });
+var coordslistener = false;
+var lastAddress = "";
+var lastLat = "";
+var lastLon = "";
+$(document).ready(function() {
+	$("#btn_locate").click(function() {
+		$("#coords").html("Locating...");
+		$("#address").empty();
+		lastAddress = "";
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(updateLocation, locationError);
+		}
+		else {
+			$("#coords").html("GeoLocation not available");
+		}
+	});
+	$("#btn_stop").click(function() {
+		navigator.geolocation.clearWatch(coordslistener);
+		coordslistener = false;
+	});
+});
+
+function updateLocation(position) {
+	if (!coordslistener) {
+		coordslistener = navigator.geolocation.watchPosition(updateLocation, locationError);
+	}
+	lat = position.coords.latitude;
+	lon = position.coords.longitude;
+	coords = lat + ',' + lon + ' <a class="whiteButton" href="http://maps.google.com/maps?q='+lat+','+lon+'">Map It!</a>';
+	$("#coords").html(coords);
+	json_url = 'reverse.php?lat=' + lat + '&lon=' + lon;
+	$.getJSON(json_url, function(json) {
+		if (json.status=="OK") {
+			if (json.results[0].formatted_address) {
+				if (json.results[0].formatted_address != lastAddress) {
+					lastAddress = json.results[0].formatted_address;
+					$("#address").prepend("<li>" + lastAddress + "</li>");
+				}
+			}
+			else {
+				$("#address").prepend("<li>No address found</li>");
+			}
+		}
+		else {
+			$("#address").prepend("<li>GeoCoding error</li>");
+		}
+	});
+}
+
+function locationError(error) {
+	coordslistener = false;
+	document.getElementById('coords').innerHTML = error.code + ':' + error.message;
+}
+</script>
+        <style type="text/css" media="screen">
+            body.fullscreen #home .info {
+                display: none;
+            }
+            #about {
+                padding: 100px 10px 40px;
+                text-shadow: rgba(255, 255, 255, 0.3) 0px -1px 0;
+                font-size: 13px;
+                text-align: center;
+                background: #161618;
+            }
+            #about p {
+                margin-bottom: 8px;
+            }
+            #about a {
+                color: #fff;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        </style>
+</head>
+	<body>
+        <div id="about" class="selectable">
+                <p><img src="jqtouch.png" /></p>
+                <p><strong>GPS Locator</strong><br />Version 1.0 beta<br />
+                    <a href="http://www.eversmann.com/damien">By Damien Eersmann</a></p>
+                <p><br /><br /><a href="#" class="grayButton goback">Close</a></p>
+        </div>
+		<div id="home" class="current">
+			<div class="toolbar">
+				<h1>GPS Locator</h1>
+				<a class="button slideup" id="infoButton" href="#about">About</a>
+			</div>
+			<h2 id="coords">No data yet.</h2>
+<!--
+            <ul class="individual">
+                <li><a href="#" id="btn_locate">Locate Me</a></li>
+                <li><a href="#" id="btn_stop">Stop Tracking</a></li>
+            </ul>
+-->
+			<div id="controls">
+
+				<a class="whiteButton" id="btn_locate">Locate Me</a>
+				<a class="whiteButton" id="btn_stop">Stop Tracking</a>
+			</div>
+			<ul class="rounded" id="address"></ul>
+		</div>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+DAMIEN J. EVERSMANN
+===================
+
+> 111 Anjou Circle, Sacramento, California 95835  
+> H: (916) 263-9953  
+> C: (916) 662-4175  
+> damien.eversmann@gmail.com
+ 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	 
+SYSTEMS ARCHITECT / SENIOR DEVELOPER
+------------------------------------
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	 
+### OBJECTIVE ###
+
+To obtain a position that will allow me to utilize and grow my existing skill 
+set and expand upon my leadership and management capabilities
+	 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	 
+### PROFILE ###
+
++ 15+ Years of Software Development Experience: "Big picture" Systems Architect 
+  and Application Developer with demonstrated leadership capability in an 
+  enterprise IT environment.
++ Skilled Web Programmer: Proven expertise with object-oriented languages, web 
+  scripting, database programming, and more. Extensive experience in Windows, 
+  Unix (AIX), Linux, or Mac OS operating environments.
++ Effective Project Manager: Proven ability to meet deadlines. Extensive 
+  experience defining requirements and managing small- to medium-scale projects 
+  (analysis, budgeting, planning, estimating, tracking, and scheduling).
++ Highly Effective Communicator: Able to communicate technical information to 
+  management and end-users at any level. Thrives on challenge, and excels in a 
+  fast-paced environment.
++ Strong Work Ethic: Self-motivated and dedicated. Able to work independently 
+  or in a collaborative team environment. Rapidly assimilates new technologies 
+  to implement customized, state-of-the-art solutions.
+	 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	 
+### PROFESSIONAL EXPERIENCE ###
+
+#### VIVANTECH, INC., San Diego, CA ####
+**2011 - Present**
+*Senior Software Architect*
+
++ Architect and Development Manager for engagement at the University of Southern
+  California to customize and implement Kuali Coeus Research Administration
+  Software
++ Designed and developed a major piece of a value-add package for Kuali products
+  for a cloud-hosted initiative
++ Provide training and mentorship to development contingency at corporate 
+  headquarters
+
+#### UNIVERSITY OF CALIFORNIA, DAVIS ####
+**2010 - 2011**
+*UC Systems Architect  
+(Office of Administration and Resource Management)*
+
++ Oversaw and implemented development standards including coding standards, unit
+  testing standards, application template design, configuration, usage standards 
+  and more.
++ Architect and developer for several UC-System-wide development initiatives funded
+  by the UC Office of the President including Risk  Management, Environmental Health 
+  and Safety, Learning Management and Workers Compensation. (Kuali Rice, Spring, 
+  Struts, Hibernate)
++ Directed the acquisition, design, and implementation of server infrastructure to
+  support dependency management and continuous integration. (Maven, Artifactory, 
+  Hudson/Jenkins, Kuali ImpEx)
++ Oversaw development and initial release of UCAction, a UC-System-wide 
+  application for the assignment and followup of requirements and tasks for 
+  legal and compliance issues.  Awarded the UC Power of Ten Award. (Java Web 
+  Application, Spring, Hibernate)
+
+**2008 - 2010**
+*Lead Developer / Programmer  
+(Office of Administration and Resource Management)*
+
++ Tendered Developer to Kuali Foundation, a consortium of universities, colleges 
+  and businesses dedicated to the design and development of open-source 
+  administrative software for higher education.
++ Architected and developed major components and new functionality that cut 
+  across several modules of the Kuali Coeus project. (Java Web Application, 
+  Spring, Struts)
++ Designed and implemented a complete overhaul of the unit test system for the 
+  Kuali Coeus project. (JUnit)
++ Software development methodology and architecture advisor for the Department 
+  of Safety Services in the Office of Administration and Resource Management.
+
+#### INTERNATIONAL BUSINESS MACHINES (IBM) ####
+**2000 - 2008**
+*IT Architect / Lead Developer  
+(Application Systems)*
+
++ Widely recognized as the "Go To" point-of-contact to expedite and execute 
+  lagging projects. Technical Lead on design and implementation of four portal 
+  web applications.
++ Received the "IBM Thanks Award" for timely and expedient turnaround of 
+  aggressive requirements on a project.
++ Lead Developer (team of 10) for large scale, multi-stage overhaul of process 
+  asset library and repository.  (WebSphere, Java Web and Desktop Applications)
++ Lead Developer (team of 6) on customer-facing portal for process-management 
+  system.  (WebSphere, Java Web Application, and Portlet development)
++ Architect and Lead Developer (team of 5) on the ground-up development of 
+  intellectual capital repository web application with search and administrative 
+  functionality. Received accolades from all levels of management.  (Java 
+  Servlets, JSPs, Struts)
++ Development Lead (team of 3) for the expansion of procurement and capacity 
+  planning application.
+
+#### UNIVERSITY OF TOLEDO, Toledo, OH ####
+**2001 - 2002**
+*Instructor, Part-time  
+(Dept. of Electrical Engineering and Computer Science)*
+
++ Taught undergraduate- and graduate-level programming courses.
++ Participated in development of new courses in Java and Java Technologies.
+
+#### EATON CORPORATION, AEROQUIP GROUP, Maumee, OH ####
+**1999 - 2000**
+*Software Architect  
+(IT Development Group)*
+
++ Collaborated to develop an industrial e-commerce (B2B and B2C) web site. 
+  (Java development)
++ Assembled and administered network of production and design servers. (Windows 
+  and Linux environments, DB and Application Server)
+	
+#### AEROQUIP CORPORATION, Maumee, OH ####
+**1998 - 1999**
+*Software Design and Programming  
+(Advanced Computer Technology Group)*
+
++ Developed and maintained significant portions of the corporate intranet.
++ Designed and implemented several Java applications. Used Java Servlets to 
+  create dynamic web pages compatible with JDBC, Access, and Oracle.
+
+#### UNIVERSITY OF TOLEDO, Toledo, OH ####
+**1998 - 1999**
+*Graduate Assistant  
+(Dept. of Electrical Engineering and Computer Science)*
+
++ Served as Instructor for department C++ Help Desk and assisted with C++ for 
+  Data Structures II course. Taught Java for Software Engineering course.
+
+#### VINCENT LIGHTING SYSTEMS, Erlanger, KY ####
+**1997**
+*Rentals and Service Technician*
+
++ Installed, programmed and maintained several varieties of rental and customer-
+  owned computerized lighting consoles.
++ Supported project initiatives for theatrical, television and architectural 
+  lighting for a wide range of businesses including corporations, performing 
+  arts centers, educational and religious organizations.
+
+#### INDIANA UNIVERSITY, Bloomington, IN ####
+**1996 - 1997**
+*Graduate Assistant  
+(Department of Theatre and Drama)*
+
++ Aided in the installation of two computerized, high-performance sound systems.
+	 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	 
+### TECHNICAL EXPERTISE ###
+
++ Systems: Windows, Unix, Linux, Mac OS  
++ Languages: Java EE/SE/ME (all JDKs), AJAX, JavaScript, C/C++/Objective-C, 
+  Perl, PHP, XML, WSDL, HTML, XHTML, DHTML and others  
++ Frameworks and Libraries: Kuali Rice, Spring, Struts, Roo, JUnit, Log4J, Ant, 
+  Maven, Selenium, Atlassian Suite, SVN, Git and others
++ Databases: IBM DB2, Oracle, MySQL, HSQLDB, MS SQLServer, MS Access and others
++ Software Development: Eclipse, IBM Rational Software Architect, IBM WebSphere 
+  Application Developer, Sun Java Studio Enterprise, NetBeans, XCode and others  
+	 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	 
+### EDUCATION ###
+
+#### UNIVERSITY OF TOLEDO, Toledo, OH ####
+
++ Master of Science - Engineering Science, Software and Info. Sys. (1999, 4.0 GPA)  
++ Bachelor of Arts - Theatre (1996, Magna Cum Laude)  
+
+#### INDIANA UNIVERSITY, Bloomington, IN ####
+
++ Master of Fine Arts Coursework - Theatre & Lighting Design (1996 - 1997)  
+	 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

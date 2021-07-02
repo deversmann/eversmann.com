@@ -1,0 +1,8 @@
+<h3><?= $entry_info->title ?></h3><a name='<?= $entry_info->fn ?>'/>
+<?	foreach ($entry_info->lines as $line) {
+		if (trim($line)) { ?>
+<p><?= $line ?></p>
+<?	} } ?>
+<h5>Posted at <?= date($blog_info->time_format, $entry_info->date) ?> in <a href='<?= $blog_info->url.$entry_info->path ?>'><?= $entry_info->path ?></a> 
+| 
+<a href='<?= $blog_info->url."/".date(Y,$entry_info->date)."/".date(m,$entry_info->date)."/".date(d,$entry_info->date)."#".$entry_info->fn ?>'>Permalink</a></h5>

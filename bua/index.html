@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy for Mac OS X (vers 2 April 2007), see www.w3.org" />
+    <title>
+      iPadTest
+    </title>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <link rel="stylesheet" rev="ipad" media="all" href="ipad.css" type="text/css" />
+    <link rel="stylesheet" rev="ipad" media="all and (orientation:portrait)" href="ipad-p.css" type="text/css" />
+    <link rel="stylesheet" rev="ipad" media="all and (orientation:landscape)" href="ipad-l.css" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
+</script>
+    <script type="text/javascript" src="iscroll.js">
+</script>
+
+	<script type="text/javascript" src="ipad.js">
+</script>
+
+  </head>
+  <body>
+    <div id="page">
+      <div id="nav">
+        <h2>
+          Sections
+        </h2>
+        <ul>
+          <li>
+            <a href="#header" id="link-header" name="link-header">Header</a>
+          </li>
+          <li>
+            <a href="#buadocs" id="link-buadocs" name="link-buadocs">BUA Documentation</a>
+          </li>
+          <li>
+            <a href="#otherdocs" id="link-otherdocs" name="link-otherdocs">Training and Other Safety Documentation</a>
+          </li>
+          <li>
+            <a href="#equipment" id="link-equipment" name="link-equipment">Containment and Equipment</a>
+          </li>
+          <li>
+            <a href="#sanwaste" id="link-sanwaste" name="link-sanwaste">Sanitation, Disinfection and Waste</a>
+          </li>
+          <li>
+            <a href="#comments" id="link-comments" name="link-comments">Comments</a>
+          </li>
+          <li>
+            <a href="#signoff" id="link-signoff" name="link-signoff">Signoff</a>
+          </li>
+        </ul>
+      </div>
+      <div id="sections">
+      <form method="post" action="#">
+        <div id="main-wrap">
+          <div id="main-scroll">
+            <div id="header" class="section">
+              <h2>Header</h2>
+              <div class="c1">
+                <ul>
+                  <li>
+                    <span class="name">Principal Investigator</span><input type="text" placeholder="enter" name="pi" />
+                  </li>
+                  <li>
+                    <span class="name">Building and Room #</span><input type="text" placeholder="enter" name="room-num" />
+                  </li>
+                  <li>
+                    <span class="name">Department</span><input type="text" placeholder="enter" name="dept" />
+                  </li>
+                  <li>
+                    <span class="name">Laboratory contact</span><input type="text" placeholder="enter" name="lab-contact" />
+                  </li>
+                  <li>
+                    <span class="name">DSC Name</span><input type="text" placeholder="enter" name="dsc-name" />
+                  </li>
+                </ul>
+              </div>
+              <div class="c2">
+                <ul>
+                  <li>
+                    <span class="name">Biological Use Authorization #</span><input type="text" placeholder="enter" name="bua-num" />
+                  </li>
+                  <li>
+                    <span class="name">BSL</span><input type="text" placeholder="enter" name="bsl" />
+                  </li>
+                  <li>
+                    <span class="name">Reviewer</span><input type="text" placeholder="enter" name="reviewer" />
+                  </li>
+                  <li>
+                    <span class="name">Date</span><input type="text" placeholder="enter" name="date" />
+                  </li>
+                  <li>
+                    <span class="name">DSC Email</span><input type="text" placeholder="enter" name="dsc-email" />
+                  </li>
+                </ul>
+              </div><h3>Pathogens (<input type="checkbox" name="pathogens-none" /><span class="name">No pathogens</span>)</h3>
+              <ul>
+                <li>
+                  <input type="checkbox" name="pathogens-human" /><span class="name">Human Pathogens</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="pathogens-animal" /><span class="name">Animal Pathogens</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="pathoghns-plant" /><span class="name">Plant Pathogens</span>
+                </li>
+              </ul><h3>rDNA organisms (<input type="checkbox" name="rdna-none" /><span class="name">No rDNA</span>)</h3>
+              <ul>
+                <li>
+                  <input type="checkbox" name="rdna-animal" /><span class="name">Animal</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="rdna-microbe" /><span class="name">Microbe</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="rdna-plant" /><span class="name">Plant</span>
+                </li>
+              </ul><h3>Other materials</h3>
+              <ul>
+                <li>
+                  <input type="checkbox" name="other-human" /><span class="name">Human source material</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="other-primate" /><span class="name">Non-human primate source material</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="other-non-primate" /><span class="name">Other cell lines (non-primate)</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="other-samples" /><span class="name">Clinical/diagnostic samples (non-human)</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="other-toxins" /><span class="name">Toxins (list)</span>
+                </li>
+              </ul>
+            </div>
+            <div id="buadocs" class="section">
+              <h2>BUA Documentation</h2>
+              <ul>
+                <li>
+                  <input type="checkbox" name="bua-available" /><span class="name">Current BUA and amendments are available.</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="bua-renewal-submitted" /><span class="name">New/renewal BUA submitted to BSAAC : <input type="text" placeholder="MM" name="renewal-month" size="2" />/<input type="text" placeholder="YY" name="renewal-year" size="2" /></span>
+                </li>
+                <li>
+                  <input type="checkbox" name="bua-no-changes" /><span class="name">There are no changes to the BUA.</span>
+                </li>
+                <li>Changes to BUA : <input type="checkbox" name="bua-project-changes" /><span class="name">project</span> <input type="checkbox" name="bua-personnel-changes" /><span class="name">personnel</span> <input type="checkbox" name="bua-location-changes" /><span class="name">location</span>
+                </li>
+              </ul>
+            </div>
+            <div id="otherdocs" class="section">
+              <h2>Training and other safety documentation available and current</h2>
+              <ul>
+                <li>
+                  <input type="checkbox" name="training-documented" /><span class="name">Laboratory training is documented with date of training, trainer name and title, trainee name and title, signatures of trainer and trainee, and training topics and materials used.</span>
+                </li>
+              </ul><h3>Laboratory Employee Training</h3>
+              <ul>
+                <li>
+                  <input type="checkbox" name="training-sheet" /><span class="name">BUA training sheet</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="training-cabinet" /><span class="name">Safe use of Biological Safety Cabinet Training</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="training-biosafety" /><span class="name">Biosafety &amp; Medical Waste Management Training</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="training-greenhouse" /><span class="name">Greenhouse Safety Training</span>
+                </li>
+              </ul><h3>Laboratory Safety Documents</h3>
+              <ul>
+                <li>
+                  <input type="checkbox" name="docs-iipp" /><span class="name">Injury Illness Prevention Plan (IIPP)</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="docs-biosafety-plan" /><span class="name">Biosafety Plan/Manual</span>
+                </li>
+                <li><input type="checkbox" name="docs-chemhygiene-plan" /><span class="name">Chemical Hygiene Plan<br />
+                  Last review date:<input type="text" placeholder="enter" name="docs-chemhygiene-plan-review" /></span>
+                </li>
+                <li>
+                  <input type="checkbox" name="docs-protocols" /><span class="name">Laboratory Protocols and SOPs</span>
+                </li>
+              </ul><h3>Regulatory Requirements and Documents</h3>
+              <ul>
+                <li><input type="checkbox" name="docs-bloodborne" /><span class="name">Bloodborne Pathogen Exposure Control Plan<br />
+                  Last review date:<input type="text" placeholder="enter" name="docs-bloodborne-review" /></span>
+                </li>
+                <li><input type="checkbox" name="docs-aerosol" /><span class="name">Aerosol Transmissible Diseases<br />
+                  Last review date:<input type="text" placeholder="enter" name="docs-aerosol-review" /></span>
+                </li>
+                <li><input type="checkbox" name="docs-waste-management" /><span class="name">Medical Waste Management Plan<br />
+                  Last review date:<input type="text" placeholder="enter" name="docs-waste-management-review" /></span>
+                </li>
+                <li>
+                  <input type="checkbox" name="docs-permits" /><span class="name">CDFA/APHIS permits</span>
+                </li>
+              </ul>
+            </div>
+            <div id="equipment" class="section">
+              <h2>Containment and equipment</h2>
+              <ul>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="equipment-sinage" value="y" /><input type="radio" name="equipment-sinage" value="n" /><input type="radio" name="equipment-sinage" value="na" checked="checked" /></span><span class="name">Door signage is accurate and legible.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="equipment-lock" value="y" /><input type="radio" name="equipment-lock" value="n" /><input type="radio" name="equipment-lock" value="na" checked="checked" /></span><span class="name">Doors are self-closing and lockable.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="equipment-access" value="y" /><input type="radio" name="equipment-access" value="n" /><input type="radio" name="equipment-access" value="na" checked="checked" /></span><span class="name">Access to lab is limited or restricted when work with biohazardous materials is in progress.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="equipment-ppe" value="y" /><input type="radio" name="equipment-ppe" value="n" /><input type="radio" name="equipment-ppe" value="na" checked="checked" /></span><span class="name">PPE appropriate for the biological agent and task is utilized when working with hazardous materials.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="equipment-airflow" value="y" /><input type="radio" name="equipment-airflow" value="n" /><input type="radio" name="equipment-airflow" value="na" checked="checked" /></span><span class="name">Laboratory has negative airflow with respect to public areas.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="equipment-window" value="y" /><input type="radio" name="equipment-window" value="n" /><input type="radio" name="equipment-window" value="na" checked="checked" /></span><span class="name">Laboratory windows have screens or do not open.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="equipment-furniture" value="y" /><input type="radio" name="equipment-furniture" value="n" /><input type="radio" name="equipment-furniture" value="na" checked="checked" /></span><span class="name">Laboratory furniture is sturdy and has non-porous work surfaces.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="equipment-vaccuum" value="y" /><input type="radio" name="equipment-vaccuum" value="n" /><input type="radio" name="equipment-vaccuum" value="na" checked="checked" /></span><span class="name">Vacuum lines have backflow protection (in-line filter and secondary flask if aspirating liquid).</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="equipment-infectious" value="y" /><input type="radio" name="equipment-infectious" value="n" /><input type="radio" name="equipment-infectious" value="na" checked="checked" /></span><span class="name">Potentially infectious materials and rDNA organisms are placed in an appropriately labeled container that prevents release to the environment during collection, handling, processing, storage or transport.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="equipment-cabinets" value="y" /><input type="radio" name="equipment-cabinets" value="n" /><input type="radio" name="equipment-cabinets" value="na" checked="checked" /></span><span class="name">Biological Safety Cabinets are certified annually (list room number, serial number and certification date)</span>
+                </li>
+              </ul>
+            </div>
+            <div id="sanwaste" class="section">
+              <h2>Sanitation, Disinfection and Waste</h2>
+              <ul>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-sink" value="y" /><input type="radio" name="sanwaste-sink" value="n" /><input type="radio" name="sanwaste-sink" value="na" checked="checked" /></span><span class="name">Sink for hand washing is present.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-eyewash" value="y" /><input type="radio" name="sanwaste-eyewash" value="n" /><input type="radio" name="sanwaste-eyewash" value="na" checked="checked" /></span><span class="name">Eyewash is available, accessible and regularly flushed. (see SafetyNet #66)</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-sn13" value="y" /><input type="radio" name="sanwaste-sn13" value="n" /><input type="radio" name="sanwaste-sn13" value="na" checked="checked" /></span><span class="name">Chemical Spill SafetyNet #13 is posted in laboratory and placed in chemical spill kit.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-sn127" value="y" /><input type="radio" name="sanwaste-sn127" value="n" /><input type="radio" name="sanwaste-sn127" value="na" checked="checked" /></span><span class="name">Biological Spill SafetyNet #127 is posted in laboratory and placed in biological spill kit.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-spillkits" value="y" /><input type="radio" name="sanwaste-spillkits" value="n" /><input type="radio" name="sanwaste-spillkits" value="na" checked="checked" /></span><span class="name">[] Biological [] Chemical Spill kits are available and stocked with appropriate items.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-surfaces" value="y" /><input type="radio" name="sanwaste-surfaces" value="n" /><input type="radio" name="sanwaste-surfaces" value="na" checked="checked" /></span><span class="name">Work surfaces are cleaned daily with the appropriate disinfectants, after each use, and after any spill of infectious materials.</span>
+                </li>
+              </ul>
+              <h3>Work surface disinfection</h3>
+              <ul>
+                <li>
+                  <input type="checkbox" name="sanwaste-surface-ethanol" /><span class="name">70% ethanol</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-surface-bleach" /><span class="name">10% bleach (30 min. contact time)</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-surface-ammonium" /><span class="name">Quaternary ammonium</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-surface-other" /><span class="name">Other:<input type="text" placeholder="enter" name="sanwaste-surface-other-spec" /></span>
+                </li>
+              </ul><h3>Liquid waste disinfection</h3>
+              <ul>
+                <li>
+                  <input type="checkbox" name="sanwaste-liquid-bleach" /><span class="name">10% bleach (final concentration, 30 min. contact time)</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-liquid-autoclave" /><span class="name">Autoclave (121&#229;&#161;C, 15 psi, 30 min.)</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-liquid-ammonium" /><span class="name">Quaternary ammonium</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-liquid-other" /><span class="name">Other:<input type="text" placeholder="enter" name="sanwaste-liquid-other-spec" /></span>
+                </li>
+              </ul><h3>Solid waste disinfection</h3>
+              <ul>
+                <li>
+                  <input type="checkbox" name="sanwaste-solid-autoclave" /><span class="name">Autoclave (121&#229;&#161;C, 15 psi, 30 min.)</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-solid-incineration" /><span class="name">Incineration</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-solid-medical" /><span class="name">Medical waste (complete med waste section)</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-solid-other" /><span class="name">Other:<input type="text" placeholder="enter" name="sanwaste-solid-other-spec" /></span>
+                </li>
+              </ul>              
+              <h3>Mixed waste generated:(<input type="checkbox" name="sanwaste-mixed-none" /><span class="name">No mixed wastes</span>)</h3>
+              <ul>
+                <li>
+                  <input type="checkbox" name="sanwaste-mixed-biochem" /><span class="name">Biological + Chemical</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-mixed-biorad" /><span class="name">Biological + Radiological</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-mixed-solid" /><span class="name">Solid</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-mixed-liquid" /><span class="name">Liquid</span>
+                </li>
+                <li>
+                  <input type="checkbox" name="sanwaste-mixed-sharps" /><span class="name">Sharps</span>
+                </li>
+              </ul>
+              <h3>Sharps waste:(<input type="checkbox" name="sanwaste-sharps-none" /><span class="name">No sharps wastes</span>)</h3>
+              <ul>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-sharps-waste" value="y" /><input type="radio" name="sanwaste-sharps-waste" value="n" /><input type="radio" name="sanwaste-sharps-waste" value="na" checked="checked" /></span><span class="name">[] Red container [] White container is present, appropriately labeled and not filled past the file line.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-sharps-disposal" value="y" /><input type="radio" name="sanwaste-sharps-disposal" value="n" /><input type="radio" name="sanwaste-sharps-disposal" value="na" checked="checked" /></span><span class="name">Medical sharps waste is disposed within 7 days of reaching the fill line.</span>
+                </li>
+              </ul><h3>Agents or materials present in sharps waste</h3>
+              <ul>
+              	<li>
+                  <input type="checkbox" name="sanwaste-sharps-primate" /><span class="name">Human or non-human primate pathogens or source materials (red container)</span>
+                </li>
+              	<li>
+                  <input type="checkbox" name="sanwaste-sharps-animal-plant" /><span class="name">Animal or plant pathogens or infected source materials</span>
+                </li>
+              	<li>
+                  <input type="checkbox" name="sanwaste-sharps-rdna" /><span class="name">Recombinant DNA materials</span>
+                </li>
+              	<li>
+                  <input type="checkbox" name="sanwaste-sharps-chem" /><span class="name">Chemicals</span>
+                </li>
+              	<li>
+                  <input type="checkbox" name="sanwaste-sharps-other" /><span class="name">Other:<input type="text" placeholder="enter" name="sanwaste-sharps-other-spec" /></span>
+                </li>
+               </ul>
+              <h3>
+                Medical Waste:(<input type="checkbox" name="sanwaste-med-none" /><span class="name">No medical waste generated)</span>
+              </h3>
+              <ul>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-med-containerlid" value="y" /><input type="radio" name="sanwaste-med-containerlid" value="n" /><input type="radio" name="sanwaste-med-containerlid" value="na" checked="checked" /></span><span class="name">Lid on secondary container is securable and appropriately labeled (i.e. sides and top).</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-med-containerclean" value="y" /><input type="radio" name="sanwaste-med-containerclean" value="n" /><input type="radio" name="sanwaste-med-containerclean" value="na" checked="checked" /></span><span class="name">Waste container(s) is monitored daily and kept clean and closed when not in use.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-med-containerlabelbiohazard" value="y" /><input type="radio" name="sanwaste-med-containerlabelbiohazard" value="n" /><input type="radio" name="sanwaste-med-containerlabelbiohazard" value="na" checked="checked" /></span><span class="name">Waste container is labeled with the biohazard symbol on the top and on all sides or 3-4 side areas.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-med-wastetransfertime" value="y" /><input type="radio" name="sanwaste-med-wastetransfertime" value="n" /><input type="radio" name="sanwaste-med-wastetransfertime" value="na" checked="checked" /></span><span class="name">Waste does not exceed 7 days (after start of accumulation) in the lab before transfer to medical waste accumulation site.</span>
+                </li>
+                <li>
+                  <span class="y-n-na"><input type="radio" name="sanwaste-med-wastetransferlabel" value="y" /><input type="radio" name="sanwaste-med-wastetransferlabel" value="n" /><input type="radio" name="sanwaste-med-wastetransferlabel" value="na" checked="checked" /></span><span class="name">Waste is labeled with: PI, room number, building, and phone # and sealed before transport to accumulation site in a secondary container.</span>
+                </li>
+              </ul>
+            </div>
+            <div id="comments" class="section">
+              <h2>Comments</h2>
+              <ul>
+                <li>
+                	<textarea id="comments-text" cols="40" rows="20"></textarea>
+                </li>
+              </ul>
+            </div>
+            <div id="signoff" class="section">
+              <h2>Signoff</h2>
+              <p>
+                The above information accurately reflects current laboratory conditions and documentation
+              </p>
+              <p>
+                Lab personnel signature and date:
+              </p>
+              <p>
+                <input type="text" placeholder="enter" name="" />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="attic"></div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

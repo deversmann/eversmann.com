@@ -1,0 +1,1 @@
+[18-Jul-2016 23:37:44 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72 bytes) in /home/eversmad/public_html/scouts/roster.php on line 24
