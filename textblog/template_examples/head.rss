@@ -1,8 +1,0 @@
-<?= '<?xml version="1.0"?>' ?>
-
-<rss version="2.0">
-	<channel>
-		<title><?= $blog_info->title ?></title>
-		<link><?= $blog_info->url ?></link>
-		<description><?= $blog_info->description ?></description>
-		<language><?= $blog_info->language ?></language>
